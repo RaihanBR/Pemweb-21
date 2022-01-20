@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Buku Tamu</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            body{
+                font-size: 20px;
+                margin: 0;
+                width: auto;
+                height: 100%;
+                font-family: monospace;
+                color: black;
+            }
+            form{
+                padding: 1em;
+                margin: 0 auto;
+                width: 20em;
+                background: gray;
+                border-radius: 5px;
+            }
+            img{
+                width: 20%;
+                border: 50%;
+            }
+        </style>
+    </head>
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href=''>RBR.Store</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#pemesanan">Pemesanan</a></li>
+                    <li><a href="buku_tamu.php">Buku Tamu</a></li>
+                    <li><a href="" class="tbl-hijau">Sign Up</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br><br>
+    <h2 align="center">Form Pemesanan</h2><br>
+    <center><img src="topi-pria-tp156.jpg"></center>
+    <p align="center">Rp 85.000,00</p><br><br>
+    <div>
+        <form align="center">
+            Nama Lengkap:<br>
+            <input type="text" name="nama_lenkap" size="35"><br><br>
+            Jenis Kelamin:<br>
+            Laki-Laki <input type="radio" name="jenis_kelamin" value="L">
+            Perempuan <input type="radio" name="jenis_kelamin" value="P">
+            <br><br>
+            Nama Barang:<br>
+            <input type="text" name="nama_barang" size="35"><br><br>
+            Jumlah Pesanan:<br>
+            <input type="number" name="Jumlah" size="35"><br><br>
+            Email:<br>
+            <input type="text" name="email" size="35"><br><br>           
+            Alamat Tinggal:<br>
+            <textarea name="alamat" cols="40" rows="3"></textarea>
+            <br><br>
+            Mengetahui web ini dari:<br>
+            <select name="info"> 
+                <option value="pilih">Pilihan</option>
+                <option value="surat kabar">Surat Kabar</option>
+                <option value="teman">teman</option>
+                <option value="browsing">Browsing</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Pesan">
+            <input type="reset" value="Batal">
+        </form>
+    </div><br><br>
+    <div id="end">
+        <div class="wrapper">
+            <div class="footer">
+                <div class="footer-section">
+                    <h3>RBR.Store</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, odit.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Social</h3>
+                    <p><a href="https://www.instagram.com/_raihanbr/" class="harga">@_raihanbr</a></p>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <p align="center"><b>Copyright @2022 RBR.store</b></p>
+    </div>
+</body>
+</html>
